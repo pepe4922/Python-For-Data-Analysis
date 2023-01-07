@@ -1,1 +1,1 @@
-# Python-For-Data-Analysis
+# Python-For-Data-Analysis is a repositary which includes the basics of python such as for beginners to better understand the datatypes,functions and conditional statments along with the basics of pandas library that is used in data analysis
