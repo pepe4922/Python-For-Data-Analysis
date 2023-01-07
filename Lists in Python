@@ -1,0 +1,47 @@
+# LIST DATATYPE IN Python
+A type of datatype in python which is mutable,ordered and allow duplicate values.
+
+1.Mutable means changeable.
+2.Ordered means that if you add new items in list it will always be after the already added item.
+3. Duplicate values can be added.
+
+
+names=["James","Jake","Mary","Hannah"]
+
+print (names) #print the names as ordered list
+
+names.append("Dany") #append function adds the value in the list at the end because list is an ordered datatype
+
+print(names)
+
+age = ["23","34","37"]
+
+names =["James","Jake",age,"Mary","Hannah"] # adding a list inside a list as you can have different data type in the list
+
+print (names[0:]) #forward order to get the list printed
+
+print (names[-5:]) # reverse order to get the list printed
+
+names.insert (1,"Kenny") # insert method is used to insert a value at a specific index and it insert the value at the desired index rather than replacing the value at that index
+
+names.remove ("James") # remove method is used to reomve the value by giving the value in the round bracket and it takes only 1 argument
+
+names.pop(1) # removes the element at the index which is passed
+
+popped=names.pop () # if no index is passed then last element is deleted and pop method also stores the value which you can store in any other variable and print
+
+print (popped)
+print (names)
+
+#sort method in List
+
+cars = ["BMW","Mercedes","Range Rover","Ford"]
+
+cars.sort()
+print (cars)
+#sort function returns the list in ascending order by default.
+
+#if you want to return the list in descending order then you have to use the (reverse=True) inside the sort function
+cars.sort(reverse=True)
+
+print (cars)
